@@ -13,10 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: バックアップの初期化
+        run: find . -type d -iname '*.git' | xargs rm -rfv
+
       - name: リポジトリの取得
         run: curl https://api.github.com/users/azisaba/repos | jq -r '.[] | .clone_url' > repo.txt
 
       - name: バックアップの作成
         run: parallel -a repo.txt git clone --bare {}
 
-      - uses: EndBug/add-and-commit@v5
+      - uses: stefanzweifel/git-auto-commit-action@v4
