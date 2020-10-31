@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  backup:
+    name: バックアップ
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: バックアップの作成
+        run: curl https://api.github.com/users/azisaba/repos | jq -r '.[] | .clone_url'
