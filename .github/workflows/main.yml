@@ -22,4 +22,4 @@ jobs:
       - name: バックアップの作成
         run: parallel -a repo.txt git clone --bare {}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: EndBug/add-and-commit@v5
