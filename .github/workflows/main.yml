@@ -20,6 +20,6 @@ jobs:
         run: curl https://api.github.com/users/azisaba/repos | jq -r '.[].clone_url' > repo.txt
 
       - name: バックアップの作成
-        run: parallel -a repo.txt git clone --bare {}
+        run: parallel -a repo.txt git clone --bare
 
       - uses: stefanzweifel/git-auto-commit-action@v4
