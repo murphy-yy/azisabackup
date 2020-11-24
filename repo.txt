@@ -1,6 +1,7 @@
 https://github.com/azisaba/alpinecraft.git
 https://github.com/azisaba/bungee.git
 https://github.com/azisaba/lobby.git
+https://github.com/azisaba/minecraft.git
 https://github.com/azisaba/monocraftpage.git
 https://github.com/azisaba/resourcepacks.git
 https://github.com/azisaba/website.git
