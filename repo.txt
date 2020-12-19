@@ -5,4 +5,5 @@ https://github.com/azisaba/minecraft.git
 https://github.com/azisaba/monocraftpage.git
 https://github.com/azisaba/packs.azisaba.net.git
 https://github.com/azisaba/resourcepacks.git
+https://github.com/azisaba/sk.git
 https://github.com/azisaba/store.azisaba.net.git
