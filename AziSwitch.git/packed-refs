@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+a1184a511181ebc4c6e2f8d8f7f9c6ecac5d61e5 refs/heads/add-license-1
+30a8199704ae6a9d59bd64831065d686af93434d refs/heads/master
+d2e48f99531f140fa44ea18a1e1a971cf8e9fd26 refs/tags/v1.0.0
